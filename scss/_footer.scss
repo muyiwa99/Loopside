@@ -1,0 +1,32 @@
+#footer {
+  height: 20vh;
+  background: #000;
+  overflow: hidden;
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+
+    .social {
+      display: inherit;
+      gap: 1.5rem;
+      height: 100%;
+    }
+  }
+
+  .foot-nav {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+
+    .menu-2 {
+      li {
+        display: inline-flex;
+        margin: 0 1rem 0 0;
+      }
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

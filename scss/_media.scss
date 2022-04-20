@@ -1,0 +1,141 @@
+@media (max-width: 600px) {
+  .container {
+    margin-inline: auto;
+  }
+  #section-1 {
+    background: url(../images/mobile/image-hero.jpg) cover center no-repeat;
+    height: 70vh;
+
+    .head {
+      top: 15rem;
+      width: 80%;
+      font-size: 2.5rem;
+      height: 220px;
+    }
+  }
+
+  #section-2 .p1 {
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .cont {
+      position: static;
+      width: 100%;
+      padding: 1rem;
+      h2 {
+        font-size: 2.6rem;
+        text-align: center;
+        font-weight: 100;
+        padding: 0.5rem;
+        letter-spacing: 2px;
+        color: rgb(26, 26, 26);
+      }
+      p {
+        text-align: center;
+        line-height: 1.2;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  #section-3 {
+    height: 220vh;
+    margin-block-start: 3rem;
+    .image-container,
+    .button {
+      display: none;
+    }
+    h2 {
+      font-size: 2.2rem;
+      margin-inline: auto;
+      font-weight: 100;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+
+    .mobile-cont {
+      display: block;
+      :hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+      .mcard {
+        position: relative;
+
+        img {
+          width: 100%;
+          background: rgb(0, 0, 0);
+          // Used to darken the image so the text stands out well
+          filter: brightness(70%);
+        }
+        p {
+          position: absolute;
+          color: #fff;
+          bottom: 2rem;
+          left: 2rem;
+          font-size: 2.3rem;
+          width: 20%;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .m-button {
+      padding: 0.8rem 2.4rem;
+      max-width: 12rem;
+      height: 3rem;
+
+      border: #000 solid 2px;
+      font-size: 1.1rem;
+      letter-spacing: 5px;
+      margin-inline-start: 6rem;
+    }
+    .m-button:hover {
+      background: rgb(110, 108, 108);
+      color: #fff;
+      border: none;
+      transition: 0.5s;
+    }
+  }
+
+  #footer {
+    height: 55vh;
+
+    .standard {
+      display: none;
+    }
+
+    .m-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .mlogo {
+        height: 50%;
+        width: 50%;
+      }
+
+      .menu-3 {
+        display: inherit;
+        flex-direction: column;
+        text-align: center;
+        gap: 1.3rem;
+        a {
+          color: #fff;
+          font-size: larger;
+        }
+      }
+
+      .msocial a {
+        margin: 0.5rem;
+      }
+
+      .mcopy {
+        color: rgb(192, 190, 190);
+      }
+    }
+  }
+}
